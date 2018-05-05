@@ -106,7 +106,7 @@ termsAndConditions = color.NOTICE + '''
 
 
 '''
-Starts Menu Classes
+#Starts Menu Classes
 '''
 def agreement():
     while not config.getboolean("Aurora", "agreement"):
