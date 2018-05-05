@@ -95,14 +95,13 @@ alreadyInstalled = "Already Installed"
 continuePrompt = "\nClick [Return] to continue"
 
 termsAndConditions = color.NOTICE + '''
-I shall not use Aurora to:
-(i) upload or otherwise transmit, display or distribute any
-content that infringes any trademark, trade secret, copyright
-or other proprietary or intellectual property rights of any
-person; (ii) upload or otherwise transmit any material that contains
-software viruses or any other computer code, files or programs
-designed to interrupt, destroy or limit the functionality of any
-computer software or hardware or telecommunications equipment;
+#I shall not use Aurora to:
+#(i) upload or otherwise transmit, display or distribute any
+#content that infringes any trademark, trade secret, copyright
+#or other proprietary or intellectual property rights of any
+#software viruses or any other computer code, files or programs
+#designed to interrupt, destroy or limit the functionality of any
+#Computer software or hardware or telecommunications equipment;
 ''' + color.END
 
 
