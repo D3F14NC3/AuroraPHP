@@ -9,14 +9,14 @@ RUN apt-get update \
 # Install Python dependecies
 RUN pip install requests
 
-# Install fsociety
-RUN git clone https://github.com/Manisso/fsociety.git \
+# Install Aurora
+RUN git clone https://github.com/D3F14NC3/AuroraPHP \
   && cd fsociety \
   && chmod +x install.sh \
   && ./install.sh
 
 # Change workdir
-WORKDIR /root/.fsociety/
+WORKDIR /root/.Aurora/
 
 # Hack to keep the container running
 CMD python -c "import signal; signal.pause()"
