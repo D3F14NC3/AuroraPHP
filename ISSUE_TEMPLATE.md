@@ -1,8 +1,8 @@
 ## Checkboxes
 
-- [ ] Updated fsociety
+- [ ] Updated Aurora
 - [ ] Issue does not already exist
-- [ ] fsociety issue, not a tool issue
+- [ ] Aurora issue, not a tool issue
 
 ## Expected Result
 
